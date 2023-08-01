@@ -1,9 +1,10 @@
 /* #232323 */
 /* #616161 */
 
-* {
+/** {
     transition: all ease 0.9s;
 }   
+*/
 
 body{
     background-image: url('./img/body_bg.png');
@@ -43,7 +44,7 @@ body{
     border-radius: 1em;
     margin: 1em;
     width: 19pc;
-    height: 25em;
+    height: 15em;
     color: white;
     transform: perspective(600px) rotateY(0deg);
 }
@@ -61,20 +62,22 @@ body{
 .card .back {
     transform: perspective(600px) rotateY(-180deg);
     width: 100%;
-    height: 100%;
+    height: 17.5em;
     background-color: #0a0a23;
-    border-radius: 1em;
+    border-radius: 10px;
 }
 
 .card:hover .number{
     opacity: 1;
     font-size: 8pc;
+    transition: all ease 0.9s;
 }
 
 .card:hover .imagen{
     width: 16pc;
     top: -9px;
     left: 8%;
+    transition: all ease 0.9s;  
 }
 .containerInfo{
     padding: 1pc 1.3pc;
